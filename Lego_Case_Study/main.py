@@ -214,3 +214,4 @@ class PokemonData:
 
 if __name__ == "__main__":
     pokemon_data = PokemonData()
+    pokemon_data.get_pokemon_bmi()
