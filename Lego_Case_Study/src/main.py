@@ -119,7 +119,7 @@ class PokemonData:
                 else:
                     games = []
             except:
-                print("Out of index error")
+                print("Error games cound not be assigned")
             pokemon_in_games.append(
                 self.check_chosen_games_in_games(chosen_games, games)
             )
@@ -214,3 +214,4 @@ class PokemonData:
 
 if __name__ == "__main__":
     pokemon_data = PokemonData()
+    pokemon_data.get_pokemon_slot_name()
